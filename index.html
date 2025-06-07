@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+            <img src="jpg.png.png" alt="profile-photo">
+
+    <h1>RAKESH GORAI</h1>
+    <p>Full Stack Web Developer</p>
+
+    <a href="#container">
+        <i class="fa fa-long-arrow-down arrow"></i>
+    </a>
+    </header>
+
+    <div class="container" id="container">
+        <div class="profile">
+            <h2>My Profile</h2>
+            <p>Hello Guys!!</p>
+            <p>My name is <b>RAKESH GORAI</b> and i am from jamshedpur , jharkhand (India). I am a Full stack Web Developer. In my free time i want to learn about more in my field. I like to share my knowledge with our friends and anybudy. If you like my efforts then please support me.
+            <br> <br>
+            <a href="">Read more</a>
+            </p>
+        </div>
+        <div class="skills">
+            <h2>My Skills</h2>
+            <div>
+                <label for="file">HTML</label>
+                <progress id="file" value="90" max="100"> 90% </progress>
+            </div>
+            <div>
+                <label for="file">CSS</label>
+                <progress id="file" value="70" max="100"> 70% </progress>
+            </div>
+            <div>
+                <label for="file">JavaScript</label>
+                <progress id="file" value="65" max="100"> 65% </progress>
+            </div>
+            <div>
+                <label for="file">Back End</label>
+                <progress id="file" value="80" max="100"> 80% </progress>
+            </div>
+        </div>
+        <div class="edu">
+            <h2>Education</h2>
+            <h2>MY QUALIFICATIONS</h2>
+            <p>I have done my matric from Jac Board with 77% (First Division).<br />
+                I have done my Intermediate from Jac Board with 63% (First Division).<br />
+                I have done my B Tech in computer science from Arka Jain University with 83%.<br />
+                .<br />
+                I have done my Full stack web development course from Ardent computech Pvt Ltd.
+                <br> <br>
+                <a href="./resume/resume.pdf" download="resume">download resume</a>
+            </p>
+        </div>
+        <div class="lang">
+            <h2>Languages</h2>
+            <ul>
+                WEB DESIGNING
+                <li>HTML / CSS</li>
+                <li>JAVASCRIPT / JQUERY</li>
+                <li>BOOTSTRAP / TAILWIND</li>
+            </ul>
+
+            <ul>
+                IN WEB DEVELOPMENT
+                <li>DJANGO</li>
+                <li>MYSQL</li>
+                <li>NODE JS</li>
+            </ul>
+            
+        </div>
+        <div class="contact">
+            <h2>Our Contact</h2>
+            <div>
+                <p>
+                    <i class="fa fa-map"></i>
+                    near bank colony manjhi tola adityapur 1 831013 jamshedpur
+                </p>
+                <p>
+                    <i class="fa fa-phone"></i>
+                    +91 7903718728
+                </p>
+                <p>
+                    <i class="fa fa-instagram"></i>
+                    rakesh__gorai
+                </p>
+                <p>
+                    <i class="fa fa-github"></i>
+                    Check later
+                </p>
+                <p>
+                    <i class="fa fa-envelope"></i>
+                    gorairakesh50@gmail.com
+                </p>
+            </div>
+        </div>
+        <div class="exp">
+            <h2>Experience</h2>
+            <h2>I am Very Happy to Share</h2>
+            <p>My name is <b>RAKESH GORAI</b> and i am from Jamshedpur, Jharkhand (India). I am a Full stack Web Developer. In my free time i want to learn about more in my field.I am working on front end and back end web development.I like to share my knowledge with our friends and anybudy. If you like my efforts then please support me.I like to share my knowledge with our IT community.If you like my efforts then please support me.</p>
+        </div>
+        <footer>
+            <a href="https://www.facebook.com/share/1C31mDKjuD/?mibextid=wwXIfr"><i class="fa fa-facebook"></i></a>
+            <a href="NOT AVLILABLE NOW"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/rakesh__gorai?igsh=MThzNTkzMmVhMjVwbg%3D%3D&utm_source=qr"><i class="fa fa-instagram"></i></a>
+            <i class="fa fa-envelope"></i>
+
+            <h3>Developed by RAKESH GORAI</h3>
+        </footer>
+    </div>
+
+</body>
+</html>
+<style>html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body{
+    background-color: #0a3d62; font-family: 'poppins', sans-serif;
+
+}
+
+header{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header img{
+    width: 10rem;
+    height: auto;
+    border-radius: 50%;
+    animation: pulse 1s infinite;
+
+}
+
+@keyframes pulse{
+    0%{
+        box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.5);
+    }
+    100%{
+        box-shadow: 0 0 0 30px rgba(0, 0, 0, 0);
+    }
+}
+
+header h1{
+    color: white;
+    margin: 1.2rem 0;
+    letter-spacing: 0.2rem;
+    font-size: 1.5rem;
+
+}
+
+header p{
+    color: white;
+}
+
+.arrow{
+    color: white;
+    margin-top: 5rem;
+    font-size: 5rem;
+    animation: arrow 2s ease-in-out infinite;
+}
+
+@keyframes arrow{
+    0%{color: #3c6382;}
+    50%{color: #0a3d62;}
+    100%{color: #3c6382;}
+}
+
+.container{
+    width: 100%;
+    min-height: 150vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 0.8fr 0.2fr;
+    gap: 1rem;
+    grid-template-areas: "profile profile skills skills"    "edu edu edu lang"  "contact exp exp exp" "footer footer footer footer";
+    padding: 2rem;
+}
+
+.profile{
+    background-color: white;
+    color: black;
+    padding: 2rem;
+    grid-area: profile;
+}
+
+.skills{
+    background: #3c6382;
+    color: white;
+    padding: 2rem;
+    grid-area: skills;
+}
+
+.edu{
+    background: #3c6382;
+    color: white;
+    padding: 2rem;
+    grid-area: edu;
+}
+
+.lang{
+    background: white;
+    color: #0a3d62;
+    padding: 2rem;
+    grid-area: lang;
+}
+
+.contact{
+    background: white;
+    color: #0a3d62;
+    padding: 2rem;
+    grid-area: contact;
+}
+
+.exp{
+    background: #3c6382;
+    color: white;
+    padding: 2rem;
+    grid-area: exp;
+}
+
+footer{
+    color: white;
+    background: #3c6382;
+    padding: 1.5rem;
+    grid-area: footer;
+}
+
+h2{
+    margin-bottom: 1rem;
+
+}
+
+.profile p{
+    padding: 0.3rem 1rem;
+    text-align: justify;
+    line-height: 2.2rem;
+}
+
+.profile a{
+    text-decoration: none;
+    padding: 0.5rem 0.7rem;
+    background-color: #0a3d62;
+    color: white;
+}
+
+.skills div{
+    width: 100%;
+    padding: 0.5rem 1rem;
+}
+
+.skills div progress[value]{
+    width: 100%;
+    height: 1rem;
+}
+
+.edu h2{
+    letter-spacing: 0.1rem;
+
+}
+.edu p{
+    padding: 0.3rem 1rem;
+    text-align: justify;
+    line-height: 2.2rem;
+}
+
+.edu a{
+    text-decoration: none;
+    padding: 0.5rem 0.7rem;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+
+.lang ul{
+    margin: 1rem 0;
+    padding: 0.3rem 0.7rem;
+    
+}
+
+.lang ul li{
+    font-size: 1.2rem;
+    cursor: pointer;
+    line-height: 2.2rem;
+}
+
+.contact div i{
+    margin-right: 0.2rem;
+
+}
+
+.contact p{
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+.exp p{
+    padding: 0.3rem 1rem;
+    text-align: justify;
+    line-height: 2.2rem;
+}
+
+footer i{
+    background-color: white;
+    color: black;
+    padding: 0.5rem;
+    margin: 0.4rem 0.2rem;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+footer i:hover{
+    background-color: #0a3d62;
+    color: white;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+}
+
+
+/* for mobile  */
+
+@media only screen and (max-width:770px)
+{
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.8fr 0.6fr 1fr 0.6fr 0.5fr 0.8fr 0.1fr;
+        grid-template-areas: "profile" "skills" "edu" "lang" "contact" "exp" "footer";
+    }
+}</style>
